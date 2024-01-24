@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Elshazle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="vedio-loop" loop autoplay muted>
+        <source src="video-loop.mp4" />
+      </video>
+
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <!-- <li><a href="#" class="navigation__link">Media</a></li> -->
+            <!-- <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li> -->
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox "
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Mohamed Elshazle</span> , a
+            junior software engineer and student at
+            <a
+              href="https://almdrasa.com/"
+              class="bio__almdrasa"
+              target="_blank"
+              >almdrasa.com</a
+            >
+            and can see my works at
+            <a
+              href="https://www.linkedin.com/in/mo-elshazly/"
+              class="bio__linkedin"
+              target="_blank"
+              >Linkedin</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say_hi_link"> Say Hi</a>
+          <a href="#" class="bio__links find_out_link">
+            Downloud CV <span class="bio__arrow"> ⭣ </span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            src="img/my pic.png"
+            alt="image of mohamed elshazle "
+            class="bio__pic"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="section section--with-bg">
+        <h2 class="h2-heading">SKILLS</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__time">3 months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__time">3months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__time">1 month</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          MY FEATURED<br />
+          PROJECTS
+        </h2>
+        <dev class="projects__main">
+          <img
+            class="projects__img"
+            src="img/project-1.jpg"
+            alt=" Quran Tab Extention"
+          />
+          <dev class="projects__data">
+            <h3 class="h3-heading">Quran Tab <br />Extention</h3>
+            <p class="projects__description">
+              Quran Tab is an Islamic new tab page that will keep you inspired
+              by a verse from the Quran every time you open a new tab that helps
+              you achieve your "Khatma" and keeps you connected with the words
+              of Allah.
+            </p>
+            <a href="#" class="projects__links" target="_blank">Chrome Link</a>
+            <span>-</span>
+            <a href="#" class="projects__links" target="_blank">Edge Link</a>
+          </dev>
+          <dev class="projects__data">
+            <h3 class="h3-heading">Quran Tab <br />Extention</h3>
+            <p class="projects__description">
+              Small extension that gives you access to over 100 stations to help
+              you listen to the Quran from your favorite reciters easily
+              Quran-Station has over 100 stations to help you listen to the
+              Quran from your favorite reciters in a quick and easy way.
+            </p>
+            <a href="#" class="projects__links" target="_blank">Chrome Link</a>
+            <span>-</span>
+            <a href="#" class="projects__links" target="_blank">Edge Link</a>
+          </dev>
+          <img
+            class="projects__img"
+            src="img/project-2.jpg"
+            alt=" Quran Tab Extention"
+          />
+        </dev>
+      </section> -->
+
+      <!-- <secyion id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">
+          WHAT MY<br />
+          CLIENTS SAYS.
+        </h2>
+        <dev class="clients__opinions">
+          <dev class="clients__wrapper">
+            <p class="clients__opinion">Coming soon</p>
+            <p class="clients__opinion">Coming soon</p>
+            <p class="clients__opinion">Coming soon</p>
+          </dev>
+        </dev>
+      </secyion> -->
+
+      <section id="contact" class="contact section">
+        <dev class="contact__connection">
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a href="mailto:example@gmail.com" class="contact__email"
+            >example@gmail.com</a
+          >
+          <div class="contact__links">
+            <!-- <a href="" class="contact__link">
+              <img src="img/brand/twitter.svg" alt="img of twitter" />
+            </a> -->
+            <a href="" class="contact__link" target="_blank">
+              <img src="img/brand/LinkedIn.svg" alt="img of LinkedIn" />
+            </a>
+            <a href="" class="contact__link" target="_blank">
+              <img src="img/brand/github.svg" alt="img of github" />
+            </a>
+          </div>
+        </dev>
+
+        <dev class="contact__formcontent">
+          <h2 class="h2-heading">
+            LET’S WORK<br />
+            TOGETHER!
+          </h2>
+          <form action="results.html">
+            <dev class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                required
+                name="fullname"
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+                name="telephone"
+              />
+            </dev>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </dev>
+      </section>
+
+      <footer class="footer">© 2022 by Mohamed Elshazle</footer>
+    </div>
+  </body>
+</html>
